@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Me | Send Me a Message</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Trentons content">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" id="aboutButton" class="navButton" href="index.html">About</a>
+                <a class="navbar-item" id="portButton" class="navButton" href="workPortfolio.html">Portfolio</a>
+                <a class="navbar-item" id="contactButton" class="navButton" href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </section>
+    <div id="content is-centered is-black" class="getsmaller">
+        <section class="hero has-background-black" id="mainSection">
+            <div class="hero-body is-black" id="hero">
+                <header>
+                    <svg viewBox="0 0 1000 300">
+                        <symbol id="s-text">
+                            <text text-anchor="middle" x="50%" y="50%" class="text--line">
+                                Trenton Ankenbruck
+                            </text>
+                            <!-- <text text-anchor="middle" x="50%" y="65%" class="text--line">
+                                    Ankenbruck
+                                </text> -->
+                        </symbol>
+                        <g class="g-ants">
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                            <use xlink:href="#s-text" class="text-copy"></use>
+                        </g>
+                    </svg>
+                </header>
+            </div>
+        </section>
+    </div>
+    <div class="container is-fluid">
+        <div id="bodyContent">
+            <section id="mainContent">
+                <h1>Contact Form</h1>
+                <form>
+                    <label for="name">Name</label>
+                    <input class="input is-warning" type="text" id="name" placeholder="Your Name">
+                    <label for="email">Email</label>
+                    <input class="input is-warning" type="email" id="email" placeholder="example@yahoo.com">
+                    <label for="message">Message</label>
+                    <textarea class="textarea is-warning" id="message" id="myTextArea" cols="30" rows="10"></textarea>
+                    <br>
+                    <input id="submitButton" class="button is-warning is-centered" type="submit" value="Submit">
+                </form>
+                <br>
+                <br>
+            </section>
+        </div>
+    </div>
+    <br>
+    <div class="container is-fluid">
+        <section id="sideBar">
+            <h2>Connect With Me</h2>
+            <br>
+            <a href="https://github.com/TrentonAnk?tab=repositories" class="fab fa-github"></a>
+            <a href="https://www.linkedin.com/in/trenton-ankenbruck-2263b8167/" class="fab fa-linkedin"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-facebook"></a>
+        </section>
+    </div>
+    <div class="container is-fluid">
+        <div class="card">
+            <div class="card-content">
+                <p class="stuff">
+                    "There can be no deep disappointment where there is not deep love."
+                    <br>
+                    <br> -Martin Luther King Jr.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer class="footer has-background-black">
+        <div class="content has-text-centered is-white">
+            <p>
+                <strong>Portfolio</strong> by
+                <a href="https://jgthms.com">Trenton Ankenbruck</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed
+                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

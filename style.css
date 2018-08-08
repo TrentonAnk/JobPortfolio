@@ -1,0 +1,291 @@
+.getsmaller {
+    width: 100%;
+    height: 400px
+}
+
+#mainSection {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+BODY {
+    background-size: .12em 100%;
+    font: 16em/1 Arial;
+}
+
+.text--line {
+    font-size: .5em;
+}
+
+svg {
+    float: middle;
+    width: 100%;
+    height: 100%;
+    font: 30px;
+    text-align: center
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28%;
+    stroke-width: 7px;
+    animation: stroke-offset 3s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+    stroke: #d81c1c;
+    stroke-dashoffset: 7%;
+}
+
+.text-copy:nth-child(2) {
+    stroke: rgb(247, 0, 205);
+    stroke-dashoffset: 14%;
+}
+
+.text-copy:nth-child(3) {
+    stroke: yellow;
+    stroke-dashoffset: 21%;
+}
+
+.text-copy:nth-child(4) {
+    stroke: white;
+    stroke-dashoffset: 28%;
+}
+
+.text-copy:nth-child(5) {
+    stroke: rgb(53, 233, 77);
+    stroke-dashoffset: 35%;
+}
+
+@keyframes stroke-offset {
+    50% {
+        stroke-dashoffset: 35%;
+        stroke-dasharray: 0 87.5%;
+    }
+}
+
+.card {
+    width: 40%;
+    height: 200px;
+    background-color: black;
+    box-shadow: 4px 4px 15px 2px white;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px 15px 20px 15px;
+    position: absolute;
+    bottom: 60%;
+    left: 50%
+}
+
+.card:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+body {
+    background: black;
+    border-left: 5px solid white;
+    border-right: 5px solid white
+}
+
+h1,
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    color: #ff2cd1;
+}
+
+h1 {
+    font-size: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+header {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+#myName {
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+    float: center;
+    line-height: 65px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    color: rgb(250, 0, 154);
+}
+
+#myName:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+footer {
+    border-top: 2px solid white;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px
+}
+
+nav {
+    border-bottom: 2px solid white;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-item {
+    line-height: 80px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar-item:a {
+    padding: 10px 15px 10px 15px;
+    color: white;
+}
+
+.navbar-item:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+#portButton a {
+    border-left: 2px solid #a58312;
+    border-right: 2px solid #a58312;
+}
+
+#mainContent {
+    width: 100%;
+    padding: 40px 30px 40px 30px;
+    background-color: black;
+    float: middle;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 25px;
+    line-height: 2em;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+#mainContent p {
+    margin: 16px 0px 16px 0px;
+    text-indent: 30px;
+    width: 100%;
+}
+
+#profilePic {
+    width: 240px;
+    height: 240px;
+    float: left;
+    margin: 0px 20px 10px 0px;
+}
+
+#submitButton {
+    background-color: #05fc11;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1em;
+    width: auto;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+}
+
+#sideBar {
+    width: 40%;
+    height: 150px;
+    padding: 10px 15px 10px 15px;
+    background-color: black;
+    box-shadow: 4px 4px 15px 2px white;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 170px;
+    right: 40px;
+    margin-left: 5%
+}
+
+#sideBar:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.socialIcon {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.socialIcon div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 60px;
+}
+
+.socialIcon:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+@media only screen and (max-width: 800px) {
+    #sideBar {
+        width: 35%;
+        height: 200px;
+        padding: 10px 15px 10px 15px;
+        background-color: black;
+        box-shadow: 4px 4px 15px 2px white;
+        float: left;
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+        bottom: 100px;
+        right: 50px;
+        margin-left: 15%
+    }
+}
+
+@media only screen and (max-width: 496px) {
+    .card {
+        width: 45%;
+        height: 250px;
+        background-color: black;
+        box-shadow: 4px 4px 15px 2px white;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        padding: 20px 15px 20px 15px;
+        position: relative;
+        left: 50%;
+        bottom: 40%
+    }
+    .stuff {
+        width: 100px;
+        position: absolute;
+        margin-right: 5px
+    }
+}
