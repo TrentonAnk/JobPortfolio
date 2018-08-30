@@ -44,7 +44,7 @@ svg {
 }
 
 .text-copy:nth-child(1) {
-    stroke: #d81c1c;
+    stroke:purple;
     stroke-dashoffset: 7%;
 }
 
@@ -78,7 +78,7 @@ svg {
 .card {
     width: 40%;
     height: 200px;
-    background-color: black;
+    background-color:black;
     box-shadow: 4px 4px 15px 2px white;
     font-size: 15px;
     color: white;
@@ -96,7 +96,7 @@ svg {
 }
 
 body {
-    background: black;
+    background:grey;
     border-left: 5px solid white;
     border-right: 5px solid white
 }
@@ -105,7 +105,12 @@ h1,
 h2 {
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
-    color: #ff2cd1;
+    color:black;
+}
+h3{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    color:white;
 }
 
 h1 {
@@ -182,7 +187,7 @@ nav {
 #mainContent {
     width: 100%;
     padding: 40px 30px 40px 30px;
-    background-color: black;
+    background-color:grey;
     float: middle;
     font-family: 'Shadows Into Light', cursive;
     color: white;
@@ -206,7 +211,7 @@ nav {
 }
 
 #submitButton {
-    background-color: #05fc11;
+    background-color:black;
     border: none;
     color: whitesmoke;
     font-weight: bold;
@@ -222,7 +227,7 @@ nav {
     width: 40%;
     height: 150px;
     padding: 10px 15px 10px 15px;
-    background-color: black;
+    background-color:black;
     box-shadow: 4px 4px 15px 2px white;
     float: left;
     text-align: center;
@@ -266,7 +271,7 @@ nav {
         width: 35%;
         height: 200px;
         padding: 10px 15px 10px 15px;
-        background-color: black;
+        background-color:black;
         box-shadow: 4px 4px 15px 2px white;
         float: left;
         text-align: center;
@@ -282,7 +287,7 @@ nav {
     .card {
         width: 45%;
         height: 250px;
-        background-color: black;
+        background-color:black;
         box-shadow: 4px 4px 15px 2px white;
         font-size: 15px;
         color: white;
